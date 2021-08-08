@@ -4,7 +4,7 @@ const typeDefs = gql`
   "Get a list of all the tracks"
   type Query {
     "List of Tracks"
-    tracks: [Track!]!
+    tracksForHome: [Track!]!
   }
 
   "A track is a group of Modules that teaches about a specific topic"
